@@ -1,0 +1,32 @@
+body {
+	background-color: #F0B100;
+}
+.container {
+	background: #fff;
+	box-shadow: 5px 5px #CF9700;
+	border-radius: 5px;
+	width: 200px;
+	margin: 50px auto;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	line-height: 39px;
+}
+.row:last-child {
+	border-bottom: 0;
+}
+label {
+	border-left: 1px solid #ddd;
+	width: 150px;
+	padding-left: 10px;
+}
+input {
+	margin: 15px 0 0 15px;
+}
+input:checked + label {
+	text-decoration: line-through;
+}
